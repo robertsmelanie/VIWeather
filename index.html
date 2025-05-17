@@ -11,12 +11,18 @@
     
 
 
-    <form id="weather-form">
-        <label for="city">City:</label>
-        <input type="text" id="city" name="city" required>
-        <button type="submit">Get Weather</button>
-    </form>
-    <div id="weather-result"></div>
+    <div class="weather-app">
+        <h1>US Virgin Islands Weather</h1>
+        <label for="city-select">Choose a city:</label>
+        <select id="city-select">
+            <option value="Charlotte Amalie,VI,US">Charlotte Amalie (St. Thomas)</option>
+            <option value="Christiansted,VI,US">Christiansted (St. Croix)</option>
+            <option value="Frederiksted,VI,US">Frederiksted (St. Croix)</option>
+            <option value="Cruz Bay,VI,US">Cruz Bay (St. John)</option>
+        </select>
+        <button id="search-btn">Get Weather</button>
+        <div id="weather-result"></div>
+    </div>
 
 
     <script src="script.js"></script>
