@@ -1,4 +1,4 @@
-const apiKey = '79705611a8b7413f527fa00203551b55'; // Replace with your API key
+const apiKey = '25b4a6ad586aa8c0c0fbc03b8fc74246'; // Replace with your API key
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 const btn = document.getElementById('search-btn');
 const select = document.getElementById('city-select');
