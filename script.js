@@ -26,7 +26,7 @@ async function getWeather(city) {
         result.innerHTML = `
       <strong>${data.name}, ${data.sys.country}</strong><br>
       ${data.weather[0].main} - ${data.weather[0].description}<br>
-      Temp: ${data.main.temp}&deg;C<br>
+      Temp: ${data.main.temp}&deg;F<br>
       Humidity: ${data.main.humidity}%
     `;
     } catch (err) {
