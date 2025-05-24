@@ -9,6 +9,7 @@ body {
     justify-content: center;
 }
 
+
 .weather-app {
     background: #fff;
     padding: 2em 3em;
@@ -22,6 +23,7 @@ body {
     width: 200px;
     margin-right: 0.5em;
 }
+
 
 #search-btn {
     padding: 0.5em 1em;
